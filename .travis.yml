@@ -1,7 +1,11 @@
 language: c
+os:
+  - linux
+  - osx
 compiler:
   - gcc
   - g++
+  - clang
 before_install:
   - sudo apt-get update
   - sudo apt-get install cmake valgrind
