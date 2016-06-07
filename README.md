@@ -6,7 +6,10 @@ which also just parses an xml subset, [xml.c](https://github.com/ooxi/xml.c) is
 a simple, small and self contained xml parser in one file. Ideal for embedding
 into other projects without the need for big external dependencies.
 
-[![Build Status](https://secure.travis-ci.org/ooxi/xml.c.png)](http://travis-ci.org/ooxi/xml.c)
+[![Build Status](https://travis-ci.org/funlibs/xmlc.svg?branch=master)](https://travis-ci.org/funlibs/xmlc)
+[![Build status](https://ci.appveyor.com/api/projects/status/xq8plalcax62uqf9/branch/master?svg=true)](https://ci.appveyor.com/project/ssbx/xmlc/branch/master)
+
+
 
 
 Downloads
