@@ -20,8 +20,14 @@
  *
  *  3. This notice may not be removed or altered from any source distribution.
  */
+
+#ifdef __APPLE__
+  /* apple does not have or require malloc.h */
+#else
+  #include <malloc.h>
+#endif
+
 #include <ctype.h>
-#include <malloc.h>
 #include <stdarg.h>
 #include <stdbool.h>
 #include <stdio.h>
